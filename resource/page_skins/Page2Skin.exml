@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSkin" width="640" height="1039" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="page_2_bg" x="0" y="0" locked="true"/>
+	<e:Group id="contentGroup" width="640" height="1039" y="0" x="0">
+		<e:Image id="title" source="sheet_home.page_2_title" x="71" y="97"/>
+		<e:Image id="title_1" source="sheet_home.page_2_title_2" x="49" y="336"/>
+		<e:Image id="img_0" source="sheet_home.page_2_img_1" x="59" y="383"/>
+		<e:Image id="img_1" source="sheet_home.page_2_img_2" x="59" y="513"/>
+		<e:Image id="img_2" source="sheet_home.page_2_img_3" x="59" y="678"/>
+		<e:Image id="img_3" source="sheet_home.page_2_img_4" x="58" y="833"/>
+		<e:Image id="btnJoin" source="sheet_home.page_2_btn_join" x="173" y="909"/>
+	</e:Group>
+</e:Skin>

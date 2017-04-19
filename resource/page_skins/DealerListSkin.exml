@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PageShareSkin" width="640" height="1039" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bg" width="640" height="1039" y="0" x="0" fillAlpha="0.8" fillColor="0x000000"/>
+	<e:Group id="groupPanel" y="183" scaleX="1" scaleY="1" x="70">
+		<e:Rect id="panelBg" width="500" height="687" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x4d77ba"/>
+		<e:Label text="请选择经销商" x="18" y="47"/>
+		<e:Scroller id="provinceScroller" width="460" height="453" y="93" anchorOffsetX="0" anchorOffsetY="0" x="20">
+		<e:Group anchorOffsetX="0" width="418" y="1"/>
+		</e:Scroller>
+		<e:Image id="btnOk" source="sheet_home.page_reg_btn_ok" y="604" x="126"/>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PageShareSkin" width="640" height="1039" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bg" width="640" height="1039" y="0" x="0" fillAlpha="0.8" fillColor="0x000000" locked="true"/>
+	<e:Group id="groupPanel" y="184" scaleX="1" scaleY="1" x="60">
+		<e:Rect id="panelBg" width="520" height="685" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x4d77ba"/>
+		<e:Scroller id="provinceScroller" width="200" height="467" x="18" y="94" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group/>
+		</e:Scroller>
+		<e:Scroller id="cityScroller" width="260" height="467" x="241" y="94" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group/>
+		</e:Scroller>
+		<e:Image id="btnOk" source="sheet_home.page_reg_btn_ok" y="603" x="140"/>
+		<e:Label text="省份" x="18" y="47"/>
+		<e:Label text="城市" x="243" y="47"/>
+	</e:Group>
+
+</e:Skin>

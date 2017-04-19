@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LoadingUISkin" width="640" height="1039" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bg" width="640" height="1039" y="0" x="0" fillColor="0x4d77ba"/>
+	
+	<e:Group id="contentGroup" width="640" x="0" height="1039" y="0">
+		<e:Image id="carMask" source="sheet_loading.loading_bg_mash" x="251" y="381.5"/>
+		<e:Group id="carGroup" y="381.5" x="251">
+			<e:Image id="carBg" source="sheet_loading.loading_bg" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image id="car_0" source="sheet_loading.loading_car_1" x="19" y="60" visible="false"/>
+			<e:Image id="car_1" source="sheet_loading.loading_car_2" x="25" y="54" visible="false"/>
+			<e:Image id="car_2" source="sheet_loading.loading_car_3" x="22" y="53" visible="false"/>
+		</e:Group>
+		<e:Group y="554" horizontalCenter="0">
+			<e:Image source="sheet_loading.loading_txt" x="0" y="0"/>
+			<e:BitmapLabel id="numLabel" x="122" y="-7" text="100%" font="font_loading"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

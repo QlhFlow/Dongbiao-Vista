@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSkin" width="640" height="1039" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bg" fillColor="0xffffff" height="1039" width="640" y="0" x="0" locked="true"/>
+	<e:Group id="contentGroup" width="640" height="1039" y="0" x="0">
+		<e:Image source="sheet_home.page_reg_title" x="59.5" y="87"/>
+		<e:Image source="sheet_home.page_reg_title_2" x="58" y="178"/>
+		<e:Image source="sheet_home.page_reg_title_3" x="58" y="254"/>
+		<e:Image id="btnSubmit" source="sheet_home.page_reg_btn_submit" x="129" y="823"/>
+		<e:Image id="btnShuoMing1" source="sheet_home.page_reg_btn_shuoming" x="429" y="991"/>
+		<e:Image id="btnShare" source="sheet_home.page_reg_btn_share" x="128" y="895"/>
+		<e:Group id="formGroup" x="57" y="482">
+			<e:Image id="inputBg" source="sheet_home.page_reg_input_bg" x="0" y="0" scaleX="1" scaleY="1" locked="true"/>
+			<e:Image source="sheet_home.page_reg_input_arrow" x="499" y="152"/>
+			<e:Image source="sheet_home.page_reg_input_arrow" x="227.5" y="215.5"/>
+			<e:Image source="sheet_home.page_reg_input_arrow" x="499" y="215.5"/>
+			<e:Image source="sheet_home.page_reg_input_arrow" x="499" y="281"/>
+			<e:TextInput id="inputName" width="402" height="45" x="112" y="4" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:TextInput id="inputMobile" width="402" height="39" x="112" y="72" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label id="inputProvince" text="请选择省份" x="5.5" y="209" anchorOffsetX="0" width="219" textColor="0x000000"/>
+			<e:Label id="inputCity" text="请选择城市" x="279" y="209" anchorOffsetX="0" width="216" textColor="0x000000"/>
+			<e:Label id="inputCar" text="请选择经销商" x="121" y="140" anchorOffsetX="0" width="381" anchorOffsetY="0" height="34" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0x000000"/>
+			<e:Label id="inputDealer" text="请选择经销商" x="114" y="271" anchorOffsetX="0" width="381" anchorOffsetY="0" height="34" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0x000000"/>
+			<e:Rect id="btnCar" width="422" height="61" x="104.5" y="126.5" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" scaleX="1" scaleY="1" locked="true"/>
+			<e:Rect id="btnCity" width="263" height="62" x="264.5" y="190" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" locked="true"/>
+			<e:Rect id="btnProvince" width="253" height="61" x="3.5" y="190.5" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" locked="true"/>
+			<e:Rect id="btnDealer" width="422" height="61" x="104.5" y="256.5" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" scaleX="1" scaleY="1" locked="true"/>
+		</e:Group>
+		<e:Rect id="btnShuoMing" width="227" height="67" x="392" y="968" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+		
+	</e:Group>
+</e:Skin>

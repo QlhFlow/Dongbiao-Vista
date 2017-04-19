@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PageShareSkin" width="640" height="1039" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bg" width="640" height="1039" y="0" x="0" fillAlpha="0.8"/>
+
+	<e:Group id="contentGroup" width="640" height="1039" y="0" right="0">
+		<e:Image id="img" source="sheet_home.page_pop_img_1" x="65" y="302"/>
+	</e:Group>
+</e:Skin>

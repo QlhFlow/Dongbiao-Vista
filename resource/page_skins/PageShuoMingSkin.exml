@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSkin" width="640" height="1039" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bg" height="1039" width="640" y="0" x="0" fillColor="0x000000" fillAlpha="0.8"/>
+	<e:Group id="contentGroup" width="640" height="1039" y="0" x="0">
+		<e:Rect width="498" height="813" y="115" fillColor="0xffffff" x="71"/>
+		<e:Image source="sheet_home.page_reg_shuoming_con" x="104" y="254"/>
+		<e:Image source="sheet_home.page_reg_msg_btn_close" x="525" y="128"/>
+		<e:Image source="sheet_home.page_reg_shuoming_title" x="105" y="205"/>
+	</e:Group>
+</e:Skin>

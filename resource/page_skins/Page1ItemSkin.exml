@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="questionGroup" x="0" y="0">
+		<e:Image id="qImg" source="sheet_home.page_car_1_q" x="20" y="0"/>
+		<e:Image id="btnBg_0" x="10.5" y="162" source="sheet_home.page_car_1_a_bg_1"/>
+		<e:Image id="btnBg_1" source="sheet_home.page_car_1_a_bg_2" x="4" y="259"/>
+		<e:Image id="btnBg_2" source="sheet_home.page_car_1_a_bg_3" x="0" y="349"/>
+		<e:Image id="a_0" source="sheet_home.page_car_1_a_txt_1" x="72" y="191"/>
+		<e:Image id="a_1" source="sheet_home.page_car_1_a_txt_2" x="72" y="284"/>
+		<e:Image id="a_2" x="72" y="370" source="sheet_home.page_car_1_a_txt_3"/>
+		<e:Image id="radio_0" source="sheet_home.page_car_radio_1" x="34" y="189.5"/>
+		<e:Image id="radio_1" source="sheet_home.page_car_radio_1" x="34" y="282.5"/>
+		<e:Image id="radio_2" source="sheet_home.page_car_radio_1" x="34" y="369.5"/>
+		<e:Rect id="btnAnswer_0" width="544" height="78" x="8" y="162" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" locked="true"/>
+		<e:Rect width="544" height="78" x="1" y="253.5" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" id="btnAnswer_1" locked="true"/>
+		<e:Rect width="544" height="78" x="0" y="337" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" id="btnAnswer_2" locked="true"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSkin" width="640" height="1039" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bg" width="640" height="1039" y="0" x="0"  fillColor="0x4d77ba"/>
+	<e:Group id="contentGroup" width="640" height="1039" y="0" x="0">
+		<e:Image id="city" source="sheet_home.home_bg_city" x="-179.5" y="534" />
+		<e:Group id="starGroup" width="640" height="1039" x="0" y="0" locked="true">
+			<e:Image id="star_0" source="sheet_home.home_star" x="49" y="55" />
+			<e:Image source="sheet_home.home_star" x="15" y="292" id="star_1" />
+			<e:Image source="sheet_home.home_star" x="253" y="55" id="star_2" />
+			<e:Image source="sheet_home.home_star" x="527.5" y="38" id="star_3" />
+			<e:Image source="sheet_home.home_star" x="578.5" y="275" id="star_4" />
+			<e:Image source="sheet_home.home_star" x="544.5" y="416" id="star_5" />
+			<e:Image source="sheet_home.home_star" x="15" y="614.5" id="star_6" />
+			<e:Image source="sheet_home.home_star" x="481.5" y="519.5" id="star_7" />
+		</e:Group>
+		<e:Group id="cloudGroup" x="-258" y="748" locked="true">
+			<e:Rect fillColor="0xc9ddfe" width="1123" height="459" y="109" x="0" />
+			<e:Image id="cloud_0" source="sheet_home.home_cloud_5" x="0" y="0" />
+			<e:Image id="cloud_1" source="sheet_home.home_cloud_4" x="207" y="83" />
+			<e:Image id="cloud_2" source="sheet_home.home_cloud_3" x="282" y="114" />
+			<e:Image id="cloud_3" source="sheet_home.home_cloud_2" x="331" y="202" />
+			<e:Image id="cloud_4" source="sheet_home.home_cloud_1" x="56" y="206" />
+		</e:Group>
+		<e:Group id="swfGroup" width="640" height="1039" x="0" y="0"/>
+		<e:Group id="questionGroup" x="47" y="200" width="540" height="500"/>
+		<e:Image id="btnNext" source="sheet_home.page_car_btn_next" x="443" y="650"/>
+	</e:Group>
+</e:Skin>
